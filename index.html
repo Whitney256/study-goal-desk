@@ -46,6 +46,7 @@
     background:rgba(255,255,255,.92);backdrop-filter:blur(14px);
     border-top:1px solid var(--line);
   }
+  .nav-inner{display:flex;width:100%;align-items:stretch}
   .nav-item{
     flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;
     padding:6px 2px;border-radius:14px;color:var(--muted);font-size:11px;font-weight:500;
@@ -313,7 +314,7 @@
 
 <script>
 /* 部署时由构建脚本注入默认云配置；页面内仍可在「我的 → 云端数据库」里改 */
-window.__LGM_CFG__ = {"url":"https://dccmyqggsafanvaasdwz.supabase.co","key":"sb_publishable_weBe3-c5FKwLNSs4iBpDFA_eOPFxtgc"};
+window.__LGM_CFG__ = null;
 </script>
 <script>
 /* =========================================================
